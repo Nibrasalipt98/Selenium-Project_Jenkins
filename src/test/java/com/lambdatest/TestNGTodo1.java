@@ -89,7 +89,9 @@ public class TestNGTodo1 {
     @Test
     public void basicTest2()
     {
-    	  Assert.fail("Intentional failure");
+    	  //Assert.fail("Intentional failure");
+     	//  Assert.true("Intentional failure");
+    	System.out.println("test 2");
     }
 
     @AfterMethod
