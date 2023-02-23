@@ -85,6 +85,12 @@ public class TestNGTodo1 {
         System.out.println("TestFinished");
 
     }
+    
+    @Test
+    public void basicTest2()
+    {
+    	  Assert.fail("Intentional failure");
+    }
 
     @AfterMethod
     public void tearDown() {
