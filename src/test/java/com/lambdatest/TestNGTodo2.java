@@ -28,6 +28,7 @@ public class TestNGTodo2 {
     @Test
     public void basicTest() throws InterruptedException {
         String spanText;
+        System.out.println("Tdo2 started");
         System.out.println("Loading Url");
 
         driver.get("https://lambdatest.github.io/sample-todo-app/");
